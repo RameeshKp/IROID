@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/SegoeUI.ttf",
+      "sha1": "995e37cfba0e3df9a716891a4cf9a05b38b118f9"
+    },
+    {
+      "path": "assets/fonts/SegoeUIBold Italic.ttf",
+      "sha1": "3d4d4e5829dc013f6d4c93e03c439c5afa3b1853"
+    },
+    {
+      "path": "assets/fonts/SegoeUIBold.ttf",
+      "sha1": "b2b26ea5a35f7c2f107d358f584985aa14218c4d"
+    },
+    {
+      "path": "assets/fonts/SegoeUIItalic.ttf",
+      "sha1": "5fc7be6462d15845217ffa4d609fd904e4c36fea"
+    },
+    {
+      "path": "assets/fonts/ShurikenStd-Boy.otf",
+      "sha1": "2ff88e4e14e1eba77b396606815e0ed33c9999e0"
+    },
+    {
+      "path": "assets/images/home.png",
+      "sha1": "6379b1b283ce49af512534ae85aab91d52b6e64c"
+    },
+    {
+      "path": "assets/images/meals.png",
+      "sha1": "ae32f82bba5f82a8a443dc41508a18f7eff522e3"
+    },
+    {
+      "path": "assets/images/more.png",
+      "sha1": "5bb283ff4ad1a25cda615040927d02fc98479623"
+    },
+    {
+      "path": "assets/images/profile.png",
+      "sha1": "2c2969aef2b7505dbac6e9f4ea36906a64d1298f"
+    }
+  ]
+}
