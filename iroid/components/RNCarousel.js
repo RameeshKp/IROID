@@ -10,20 +10,6 @@ export default class RNCarousel extends React.Component {
         super(props);
         this.state = {
           activeIndex:0,
-          carouselItems: [
-          {
-              title:"Item 1",
-              text: "Text 1",
-          },
-          {
-              title:"Item 2",
-              text: "Text 2",
-          },
-          {
-              title:"Item 3",
-              text: "Text 3",
-          },
-        ],
       }
     }
     _renderItem({item,index}){
@@ -31,11 +17,11 @@ export default class RNCarousel extends React.Component {
           <ImageBackground
           source={{uri:item.image}}
           style={{
-            borderRadius: 10,
+            borderRadius: 20,
             height: 167,
             overflow: 'hidden',
+            resizeMode:"cover"
           }}
-          resizeMode="cover"
     />
         )
     }
