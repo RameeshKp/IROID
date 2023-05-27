@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import TextBox from '../components/TextBox';
 import axios from 'axios';
-import { TOKEN } from '../constants';
+import { BASE_URL, TOKEN } from '../constants';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { StyleSheet } from 'react-native';
 import { CommonActions } from '@react-navigation/native';
@@ -49,7 +49,7 @@ export default class SignIn extends Component {
       data: formdata,
     };
     axios
-      .post('http://proteinium.iroidtechnologies.in/api/v1/login', requestOptions)
+      .post(`${BASE_URL}login`, requestOptions)
       .then(async (response) => {
         await AsyncStorage.setItem('TOKEN', TOKEN);
         this.props.navigation.dispatch(
